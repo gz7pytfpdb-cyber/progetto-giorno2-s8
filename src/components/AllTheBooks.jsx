@@ -1,5 +1,5 @@
 import { Component } from "react";
-import History from "../Data/books/history.json";
+import History from "./Data/books/history.json";
 import { Container } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 
