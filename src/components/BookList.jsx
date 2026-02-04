@@ -7,7 +7,7 @@ const BookList = function (props) {
     <Container>
       <Row>
         {props.books.map((book) => {
-          <SingleBook key={book.asin} img={book.img} title={book.title} category={book.category} price={book.price} />;
+          return <SingleBook key={book.asin} img={book.img} title={book.title} category={book.category} price={book.price} />;
         })}
       </Row>
     </Container>
