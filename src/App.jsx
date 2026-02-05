@@ -4,6 +4,7 @@ import MyFooter from "./components/MyFooter";
 import Welcome from "./components/Welocme";
 import BookList from "./components/BookList";
 import History from "./Data/books/history.json";
+import CommentArea from "./components/CommentArea";
 function App() {
   return (
     <>
